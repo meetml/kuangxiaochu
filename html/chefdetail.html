@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>矿小厨-厨师详情</title>
+    <!-- 引入模板 -->
+    <!-- link -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../font/iconfont.css" rel="stylesheet">
+    <!-- link结束 -->
+    
+    <!-- 你自己的样式或其他文件 -->
+    <link rel="stylesheet" href="../css/cheflist+chefdetail.css">
+    <!--站点图标-->
+    <link rel="shortcut icon" href="../assets/lk_favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--******************************** 指导厨王首栏目页面 ***********************************************-->
+<header id="kxc_header">
+    <div class="top-bar hidden-sm hidden-xs text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="top-bar-1 col-md-2">
+                    <button type="button" class="btn btn-default" style="background-color: #c81623;" >
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                    </button>
+                </div>
+                   
+                <div class="top-bar-2 col-md-10">
+                    <span><h3>厨师详细信息<h3></span>
+                </div>
+</header>
+<!-- ******************************* 厨师详情主页面 **************************************************-->
+<div class="container">
+    <div class="row">
+        
+        <div class="media" id="kxc_details">
+            <div class="media-left">
+                <img src="../assets/指导厨王.png" alt="" class=" media-object img-responsive img-circle img-thumbnail" >
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading ">
+                <span class="text-danger">【厨师】</span>
+                高级技师张某某
+                </h3>
+                <h3 class:"text-success"> 个人介绍: </h3>
+                <button type="button" class="btn btn-default btn-warning">
+                    <span class="glyphicon glyphicon-plus"></span>BUY
+                </button>
+              
+                <p class="text-muted lead" style="width=100%;" >
+                    中国烹饪协会会员、上海烹饪协会会员、高级烹调师、高级厨艺研究员、高级食品营养师、上海名厨专业委员会会员、烹饪技术能手称号。
+                </p>
+             </div>
+            <div class="media-right text-danger">
+                <h3>二百零六次订单</h3>
+            </div>
+        </div> 
+    
+   </div>
+</div>
+<!--******************************** 厨师详细信息界面 ************************************************-->
+<section id="lk_product">
+    <div class="container">
+        <div class="row">
+            
+            <div style="overflow: auto;">
+            <!--************************************** 头部选项*********************************** -->                
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#product1" aria-controls="product1" role="tab" data-toggle="tab">在线咨询</a></li>
+                    <li role="presentation"><a href="#product2" aria-controls="product2" role="tab" data-toggle="tab">厨师菜系面板</a>
+                    </li>
+                    <li role="presentation"><a href="#product3" aria-controls="product3" role="tab" data-toggle="tab">厨师视频动态</a>
+                    </li>
+                    <li class="pull-right hidden-sm hidden-xs"><a href="#" aria-controls="settings" role="tab"  data-toggle="tab">更多</a></li>
+                </ul>
+            </div>   
+            <!--********************************** 厨师在线咨询板块内容**************************************** -->
+                <div class="tab-content">
+                    
+                    <div role="tabpanel" class="tab-pane fade in active" id="product1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 pd-left">
+                                <!--第一部分-->
+                                    <div id="pd_one_1" class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="../assets/ewm_xzh.jpg" alt="二维码" width="140">
+                                            </a>
+                                        </div>
+                                        <div class="media-body text-muted" style="padding-top: 100px">
+                                            <h4 class="media-heading">更多资讯欢迎</h4>
+                                            <h4 class="media-heading">关注厨师长张某某</h4>
+                                        </div>
+                                    </div>
+                                    <!--第二部分-->
+                                    <ol id="pd_one_2" class="breadcrumb lead">
+                                        <li><a href="#">菜系全能</a></li>
+                                        <li><a href="#">创新+传统</a></li>
+                                        <li><a href="#">互联网+厨房</a></li>
+                                        <li><a href="#">厨艺理论+流程</a></li>
+                                    </ol>
+                                    <!--第三部分-->
+                                    <h1 id="pd_one_3">
+                                        欢迎来张某某的在线课堂&nbsp;&nbsp;
+                                        <strong class="text-danger">厨师长的小课堂</strong>
+                                    </h1>
+                                    <!--第四部分-->
+                                    <div id="pd_one_4">
+                                        <button class="btn btn-primary btn-lg" type="submit" style="margin-right: 20px;">
+                                            课程咨询
+                                        </button>
+                                        <button class="btn btn-default btn-lg" type="submit">了解更多</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                     <!-- 后期替换图片，内容为手机内的厨艺视频 -->
+                                    <img src="../assets/iphoneX.png" alt="" class="img-responsive">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+             <!-- ************************************ 厨师菜系面板板块内容 ****************************************-->
+                    
+                    <div role="tabpanel" class="tab-pane fade" id="product2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 hidden-sm hidden-xs">
+                                     <!-- 后期替换图片，内容为手机内的厨艺视频 -->
+                                    <img src="../assets/iphoneX2.png" alt="" class="img-responsive">
+                                </div>
+                                <div id="pd_two_1" class="col-md-8 pd-left">
+                                    <h1 class="text-warning">四大菜系能力星级</h1>
+                                    <p class="lead">粤菜：<strong class="text-danger">四星级</strong><br>精通粤菜中蛇龙虎会、龙虎凤蛇羹、 油包鲜虾仁、八宝鲜莲八宝盅、蚝油鲜菇、瓦掌山瑞、脆皮乳猪等著名菜式。</p>
+                                    <p class="lead">川菜：<strong class="text-danger">三星级</strong><br>精通川菜中回锅肉，麻婆豆腐， 辣子鸡丁，豆瓣鲫鱼，酸菜鱼，夫妻肺片等著名菜式。</p>
+                                    <p class="lead">鲁菜：<strong class="text-danger">四星级</strong><br>精通鲁菜中蛇龙虎会、龙虎凤蛇羹、 油包鲜虾仁、八宝鲜莲八宝盅、蚝油鲜菇、瓦掌山瑞、脆皮乳猪等著名菜式。</p>
+                                    <p class="lead">苏菜：<strong class="text-danger">四星级</strong><br>精通苏菜中蛇龙虎会、龙虎凤蛇羹、 油包鲜虾仁、八宝鲜莲八宝盅、蚝油鲜菇、瓦掌山瑞、脆皮乳猪等著名菜式。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            <!-- *******************************厨师视频动态板块内容***********************************************  --> 
+                    
+                    <div role="tabpanel" class="tab-pane" id="product3">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 ">
+                                <h1>
+                                    <strong class="text-danger">
+                                        实战驱动·体系贯穿·全面系统
+                                    </strong>
+                                </h1>
+                                <h3>
+                                    10-15分钟的视频
+                                    <span class="text-warning">做菜步骤拆分讲解</span>
+                                </h3>
+                                <h4 class="text-muted" style="margin: 15px 0;">玩转各种菜系, 玩转中餐红白案经典技艺,
+                                    玩转各国料理本色滋味, 玩转天南地北万般美食</h4>
+                                <div class="badge " style="padding: 30px 20px; cursor: pointer;" id="badge_add" >
+                                    <span class="lead">当前厨师已更新3000+视频 | 100000+人订阅</span>
+                                    <br><a class="text-primary"><h3>点击观看视频</h3></a>
+                                </div>
+                            </div>
+                                <!-- 后期替换图片，内容为手机内的厨艺视频 -->
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                    <img src="../assets/iphoneX.png" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>        
+        </div>
+    </div>
+</section>
+<!--******************************** 厨师评论界面的代码 **********************************************-->
+<!-- 交互式相关的未做 -->
+<div class="seccon">
+                    <h3 class="text-center">
+                        当前 厨师学员 的评论
+                        
+
+
+                        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                        <a href="javascript:;">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+
+                   
+
+
+                    </h3>
+
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                    <div class="comlist">
+                        <div>
+                            <div class="comment">
+                                <div class="comavatar" ></div>
+                                <div class="commain">
+                                    <div class="comtop">
+                                        <strong>王天来</strong> • <em>1天前</em>
+                                    </div>
+                                    
+                                    <div class="comcontent">
+                                        <div>
+                                            <p>厨师老师技艺十分精熟，教导十分耐心。终于自己做出了人生的第一道粤菜，非常感谢矿小厨平台。</p>
+                                        </div>
+                                    </div> 
+                                    <div class="combot">
+                                        <a href="javascript:;" title="赞同"><i class="fa fa-angle-up"></i></a>
+                                        (21)
+                                        <span>|</span> 
+                                        <a href="javascript:;" title="反对"><i class="fa fa-angle-down"></i></a>
+                                        (1)
+                                        <span>•</span> 
+                                        <a href="javascript:;" title="回复"><i class="fa fa-reply"></i></a>
+                                    </div>
+                                </div> 
+                                <div>
+                                    
+                                    <div class="comment">
+                                        <div class="comavatar"></div> 
+                                        <div class="commain">
+                                            <div class="comtop">
+                                                <strong>李四</strong> • <em>6小时前</em>
+                                            </div> 
+                                            <div class="comcontent">
+                                                <div>
+                                                    <p>能如此轻松的学习到专业的菜式做法，客人来了贼有面子。感谢教学的老师和，矿小厨平台。</p>
+                                                </div>
+                                            </div> 
+                                            <div class="combot">
+                                                <a href="javascript:;" title="赞同"><i class="fa fa-angle-up"></i></a>
+                                                (15)
+                                                <span>|</span> 
+                                                <a href="javascript:;" title="反对"><i class="fa fa-angle-down"></i></a>
+                                                (2)
+                                                <span>•</span> 
+                                                <a href="javascript:;" title="回复"><i class="fa fa-reply"></i></a>
+                                            </div>
+                                        </div> 
+                                        <div>
+                                            
+                                            <div class="comment">
+                                                <div class="comavatar" ></div> 
+                                                <div class="commain">
+                                                    <div class="comtop">
+                                                        <strong>刘六六</strong> • <em>4小时前</em>
+                                                    </div> 
+                                                    <div class="comcontent">
+                                                        <div>
+                                                            <p>人生第一次在学校给女朋友做菜，把女朋友感动得哭的稀里哗啦，十分感谢矿小厨平台。</p>
+                                                        </div>
+                                                    </div> 
+                                                    <div class="combot">
+                                                        <a href="javascript:;" title="赞同"><i class="fa fa-angle-up"></i></a>
+                                                        (2)
+                                                        <span>|</span> 
+                                                        <a href="javascript:;" title="反对"><i class="fa fa-angle-down"></i></a>
+                                                        (1)
+                                                        <span>•</span> 
+                                                        <a href="javascript:;" title="回复"><i class="fa fa-reply"></i></a>
+                                                    </div>
+                                                </div> 
+                                                   
+                                                <div> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="comment">
+                                <div class="comavatar" style="background: url('../images/avatar/avatar05.png') no-repeat;"></div> 
+                                <div class="commain">
+                                    <div class="comtop">
+                                        <strong>Jim</strong> • <em>2天前</em>
+                                    </div> 
+                                    <div class="comcontent">
+                                        <div>
+                                            <p>带着老婆孩子一家人来做菜，老师在旁边指导，做出来的口味比饭店也不差。</p>
+                                        </div>
+                                    </div> 
+                                    <div class="combot">
+                                        <a href="javascript:;" title="赞同"><i class="fa fa-angle-up"></i></a>
+                                        (21)
+                                        <span>|</span> 
+                                        <a href="javascript:;" title="反对"><i class="fa fa-angle-down"></i></a>
+                                        (1)
+                                        <span>•</span> 
+                                        <a href="javascript:;" title="回复"><i class="fa fa-reply"></i></a>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+    
+                   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <!-- 引入模板结束 -->
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- 你自己的脚本文件 -->
+
+</body>
+</html>
